@@ -1,0 +1,18 @@
+<!--index.wxml-->
+
+
+<view class="container">
+
+<view class="money_index">
+<button class="money_index_btnExsits" bindtap="login">已有家庭组</button>
+<button class="money_index_btnNotExsits" bindtap="register">未有家庭组</button>
+</view>
+
+<!-- <view class="money_end">
+<image src="../../images/plus_image.png" class="money_end_plus" bindtap="AddData"></image>
+</view> -->
+
+
+  <cloud-tip-modal showUploadTipProps="{{showUploadTip}}"></cloud-tip-modal>
+
+</view>
